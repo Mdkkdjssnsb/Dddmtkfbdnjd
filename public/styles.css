@@ -1,0 +1,121 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #181818;
+  margin: 0;
+  padding: 0;
+  color: #ffffff;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #ff0000;
+  color: #fff;
+}
+
+header .logo img {
+  height: 40px;
+}
+
+header .search-bar {
+  display: flex;
+}
+
+header .search-bar input {
+  width: 300px;
+  padding: 5px;
+  background-color: #333;
+  border: none;
+  color: #fff;
+}
+
+header .search-bar button {
+  padding: 5px 10px;
+  margin-left: 5px;
+  background-color: #fff;
+  color: #ff0000;
+  border: none;
+  cursor: pointer;
+}
+
+main {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+section h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #ff0000;
+}
+
+.video-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.video-card {
+  background-color: #282828;
+  border: 1px solid #ff0000;
+  border-radius: 5px;
+  overflow: hidden;
+  width: 300px;
+  box-shadow: 0 0 10px #ff0000;
+  transition: transform 0.3s;
+}
+
+.video-card:hover {
+  transform: scale(1.05);
+}
+
+.video-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.video-card .info {
+  padding: 10px;
+}
+
+.video-card .info h3 {
+  font-size: 18px;
+  margin: 0 0 10px;
+}
+
+.video-card .info p {
+  font-size: 14px;
+  color: #aaaaaa;
+  margin: 5px 0;
+}
+
+.video-card .info .download-link {
+  margin-top: 10px;
+}
+
+.video-card .info .download-link a {
+  display: inline-block;
+  margin-right: 10px;
+  font-size: 12px;
+  color: #ff0000;
+  text-decoration: none;
+}
+
+.video-card .info .watch-link {
+  display: block;
+  margin-top: 10px;
+  font-size: 14px;
+  color: #ff0000;
+  text-decoration: none;
+}
+
+.neon {
+  box-shadow: 0 0 20px #ff0000, 0 0 20px #ff0000 inset;
+  border-color: #ff0000;
+}
